@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+    <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="modal">
+        <div class="modal-form">
+            <div class="wrapper modal-form__wrapper">
+                <h2 class="h2">Добавление новости</h2>
+                <button class="close-button">
+                    <img src="https://img.icons8.com/?size=100&id=11997&format=png&color=000000" alt="" class="close-button__img">
+                </button>
+            </div>
+            <form name="addNew" method="get">
+                <input type="text" name="name" class="form-elem" placeholder="Название">
+                <p id="nameError" class="error"></p>
+                <textarea class="form-elem textarea" name="about" placeholder="Текст"></textarea>
+                <p id="aboutError" class="error"></p>
+                <button type="submit" class="send" name="addNew">Добавить новость</button>
+            </form>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container">
+            <figure class="header-logo">
+                <img src="https://img.icons8.com/?size=100&id=532&format=png&color=000000" alt="" class="header-logo__img">
+            </figure>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="wrapper">
+                <h2 class="h2">Новости</h2>
+                <button class="add-button">Добавить новость</button>
+            </div>
+            <div class="wrapper news-wrapper">
+                
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
